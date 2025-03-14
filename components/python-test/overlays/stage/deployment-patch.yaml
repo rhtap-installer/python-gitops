@@ -12,5 +12,5 @@ spec:
   template: 
     spec:
       containers:
-      - image: quay.io/cuipinghuo/rhtap-test:on-pr-532851ff19afe6666641b5c119b287e4ad507ff5
+      - image: quay.io/cuipinghuo/rhtap-test:dfdc89649a96a74a9c08d0fe1d6dd614ac6ca890
         name: container-image  
