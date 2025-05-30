@@ -1,14 +1,14 @@
 # Generated from templates/gitops-template/azure-pipelines.yml.njk. Do not edit directly.
 
 trigger:
-  - rhtap-testing
+  - main
 
 # Using self-hosted 'Default' agent pool by default
 # Change accordingly when using a different agent pool
 # Can be deleted if self-hosted agents are not being used
 # See https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents
 pool:
-  name: Default
+  name: rhtap-testing
 
 container:
   image: quay.io/redhat-appstudio/rhtap-task-runner:latest
